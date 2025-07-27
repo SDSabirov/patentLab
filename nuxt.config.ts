@@ -4,7 +4,7 @@ export default defineNuxtConfig({
   devtools: { enabled: true },
 
   compatibilityDate: '2025-04-13',
-  modules: ['@nuxtjs/tailwindcss'],
+  modules: ['@nuxtjs/tailwindcss','@nuxtjs/i18n'],
   css: ['~/assets/css/main.css','boxicons/css/boxicons.min.css'],
   plugins: ['~/plugins/aos.client.ts'],
   postcss: {
@@ -13,7 +13,25 @@ export default defineNuxtConfig({
       autoprefixer: {},
     },
   },
-
+   i18n: {
+    // Minimal basic example
+    locales: [
+      {
+        code: 'uz',
+        name: 'English',
+        file: 'uz.json'
+      },
+      {
+        code: 'ru',
+        name: 'Русский',
+        file: 'ru.json'
+      },
+      // Add more languages here
+    ],
+    lazy: true,
+    langDir: 'locales/',
+    defaultLocale: 'uz',
+  },
   app: {
     head: {
       link: [

@@ -6,9 +6,9 @@
       class="w-full max-w-screen-xl px-4 md:px-0 flex flex-col items-center justify-center mx-auto"
     >
       <h2
-        class="text-light text-3xl md:text-5xl font-semibold text-center w-full"
+        class="text-light text-3xl md:text-5xl font-semibold text-center w-full text-center"
       >
-        Biz Qanday Ishlaymiz?
+        {{$t('howWeWork.title')}}
       </h2>
       <div class="flex flex-col md:flex-row gap-4 w-full mt-12">
         <div
@@ -20,13 +20,12 @@
             </div>
           </div>
           <h3
-            class="text-2xl text-white tracking-wide text-center font-semibold"
+            class="text-2xl text-white tracking-wide text-center font-semibold text-center"
           >
-            Dastlabki Maslahat
+            {{$t('howWeWork.steps[0].title')}}
           </h3>
           <p class="text-xl leading-loose text-white text-center">
-            Belgining eksklyuzivligi va ro‘yxatdan o‘tish ehtimolini baholash
-            uchun ekspertiza o‘tkazamiz.
+            {{$t('howWeWork.steps[0].desc')}}
           </p>
           <img
             src="/assets/images/icons/arrow-bend-up.svg"
@@ -47,13 +46,12 @@
             </div>
           </div>
           <h3
-            class="text-2xl text-white tracking-wide text-center font-semibold"
+            class="text-2xl text-white tracking-wide text-center font-semibold text-center"
           >
-            Tovar belgisini tahlil qilish
+             {{$t('howWeWork.steps[1].title')}}
           </h3>
           <p class="text-xl leading-loose text-white text-center">
-            Mijoz bilan uchrashib, brendni ro‘yxatdan o‘tkazish jarayoni va
-            huquqiy himoya bo‘yicha tushuntirish beramiz.
+            {{$t('howWeWork.steps[1].desc')}}
           </p>
           <img
             src="/assets/images/icons/arrow-bend-down.svg"
@@ -74,13 +72,12 @@
             </div>
           </div>
           <h3
-            class="text-2xl text-white tracking-wide text-center font-semibold"
+            class="text-2xl text-white tracking-wide text-center font-semibold text-center"
           >
-            Hujjatlarni tayyorlash va topshirish
+             {{$t('howWeWork.steps[2].title')}}
           </h3>
           <p class="text-xl leading-loose text-white text-center">
-            Ro‘yxatdan o‘tkazish uchun zarur hujjatlarni rasmiy talablar asosida
-            tayyorlaymiz va tegishli idoraga topshiramiz.
+            {{$t('howWeWork.steps[2].desc')}}
           </p>
         </div>
       </div>
@@ -100,13 +97,12 @@
             </div>
           </div>
           <h3
-            class="text-2xl text-white tracking-wide font-semibold capitalize"
+            class="text-2xl text-white tracking-wide font-semibold capitalize text-center"
           >
-            Davlat ekspertizasi jarayoni
+            {{$t('howWeWork.steps[3].title')}}
           </h3>
           <p class="text-xl leading-loose text-white text-center">
-            Rasmiy ekspertiza natijalarini kuzatamiz va zarur hollarda
-            qo‘shimcha hujjatlar bilan qo‘llab quvvatlaymiz.
+            {{$t('howWeWork.steps[3].desc')}}
           </p>
           <img src="/assets/images/icons/arrow-bend-down.svg" alt="arrow" class="hidden md:block absolute top-[30%] -right-[30%]">
         </div>
@@ -123,13 +119,12 @@
             </div>
           </div>
           <h3
-            class="text-2xl text-white tracking-wide font-semibold capitalize"
+            class="text-2xl text-white tracking-wide font-semibold capitalize text-center"
           >
-            Guvohnoma olish
+             {{$t('howWeWork.steps[4].title')}}
           </h3>
           <p class="text-xl leading-loose text-white text-center">
-            Tovar belgisi ro‘yxatdan o‘tgach, mijozga rasmiy guvohnomani taqdim
-            etamiz.
+            {{$t('howWeWork.steps[4].desc')}}
           </p>
         </div>
       </div>

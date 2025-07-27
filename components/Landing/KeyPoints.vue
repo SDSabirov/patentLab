@@ -5,13 +5,12 @@
     <h2
       class="w-full max-w-4xl mx-auto text-center text-2xl md:text-4xl font-semibold text-white"
     >
-      <span class="text-black">Patentlab</span> nafaqat brend nomini ro‘yxatdan
-      o‘tkazadi, balki uning himoya qilinishini ham ta’minlaydi.
+      <span class="text-black">{{$t('keyPoints.title.start')}}</span> {{$t('keyPoints.title.rest')}}
     </h2>
-    <p class="text-light font-semibold text-xl mx-auto w-full text-center mt-6">
+    <!-- <p class="text-light font-semibold text-xl mx-auto w-full text-center mt-6">
       Yagona egasi bo‘lasiz – Ro‘yxatdan o‘tgan tovar belgisi sizga to‘liq
       egalik huquqini beradi.
-    </p>
+    </p> -->
     <div class="w-full max-w-screen-xl mx-auto px-4 md:px-0 mt-6">
       <div class="grid grid-cols-1 md:grid-cols-4 gap-6">
         <div class="w-full flex flex-col space-y-4 border border-light rounded-xl p-4">
@@ -32,7 +31,7 @@
             </svg>
           </div>
           <p class="text-lg leading-loose text-light">
-            Nusxalanishdan himoyalanasiz – Boshqalar brendingiz nomidan foydalanishining oldini olasiz.
+            {{$t('keyPoints.list[0]')}}
           </p>
         </div>
         <div class="w-full flex flex-col space-y-4 border border-light rounded-xl p-4">
@@ -53,7 +52,7 @@
             </svg>
           </div>
           <p class="text-lg leading-loose text-light">
-            Ishonch va nufuz oshadi – Rasmiy ro‘yxatdan o‘tgan brend mijozlarda ishonch uyg‘otadi.
+           {{$t('keyPoints.list[1]')}}
           </p>
         </div>
         <div class="w-full flex flex-col space-y-4 border border-light rounded-xl p-4">
@@ -74,7 +73,7 @@
             </svg>
           </div>
           <p class="text-lg leading-loose text-light">
-            Biznes qiymati oshadi – Tovar belgingiz moddiy aktiv sifatida sizning mulkingizga aylanadi.
+            {{$t('keyPoints.list[2]')}}
           </p>
         </div>
         <div class="w-full flex flex-col space-y-4 border border-light rounded-xl p-4">
@@ -95,12 +94,12 @@
             </svg>
           </div>
           <p class="text-lg leading-loose text-light">
-            Huquqiy muhofaza – Tovar belgingizga bo‘lgan huquqlaringiz buzilganda, qonunchilik asosida da’vo qilish va himoya choralarini ko‘rish imkoniga ega bo‘lasiz.
+            {{$t('keyPoints.list[3]')}}
           </p>
         </div>
       </div>
       <div class="flex items-center justify-center mt-6">
-        <a href="/" class="rounded-full text-xl text-primary bg-light flex items-center justify-center py-2 w-full md:w-1/4">Patent qidirish</a>
+        <a href="/" class="rounded-full text-xl text-primary bg-light flex items-center justify-center py-2 w-full md:w-1/4">{{$t('keyPoints.button')}}</a>
       </div>
     </div>
   </section>

@@ -1,0 +1,192 @@
+{
+  "nav": {
+    "contactUs": "Biz bilan bog'laning"
+  },
+  "hero": {
+    "title": "1 oy ichida brendingizni nafaqat patentlaymiz, balki uning keyingi himoyasini ham ta’minlaymiz!",
+    "description": "PatentLab, boshqa ko‘plab agentliklardan farqli o‘laroq, savdo belgilarini nafaqat ro‘yxatdan o‘tkazadi, balki ularning keyingi huquqiy himoyasida ham ko`maklashadi.",
+    "contactBtn": "Biz bilan bog’lanish",
+    "videosBtn": "Biz bilan tanishish"
+  },
+  
+  "stats": {
+    "experience": {
+      "value": "5 yil",
+      "desc": "Intellektual mulk himoyasi bilan shug'ullanamiz"
+    },
+    "team": {
+      "value": "7 professional",
+      "desc": "Mutaxassislardan iborat jamoa"
+    },
+    "clients": {
+      "value": "2000+",
+      "desc": "Intellektual mulk obyektlari bo'yicha mijozlarga xizmat ko'rsatganmiz"
+    }
+  },
+  "trustedBy": {
+     "titleFirst": "Bizga",
+    "titleRest": "ishonch bildirgan mashhur kompaniyalar"
+  },
+  "sectors": [
+    "Ta'lim",
+    "Ishlab chiqarish",
+    "Tibbiyot",
+    "Qurilish",
+    "TJM",
+    "Ovqatlanish",
+    "Tur firmalari",
+    "Qandolat do’koni",
+    "Chakana savdo" 
+  ],
+
+  "howTo":{
+    
+    "section1": {
+      "title": "Tovar belgisini ro‘yxatdan o‘tkazish (patent) nima?",
+      "text": "Patent – bu brendni huquqiy himoya qilish usuli. Agar kompaniya o‘z nomi va logotipini rasmiy ro‘yxatdan o‘tkazsa, u boshqa shaxslar tomonidan noqonuniy ishlatilishining oldini oladi. Bu nafaqat brendni mustahkamlash, balki biznesning qonuniy egasi sifatida tan olinishi uchun ham muhimdir. Qonuniy himoyaga ega bo‘lgan brend esa ishonchli va xavfsiz hisoblanadi."
+      },
+    "section2": {
+      "title": "Ko‘p patent vakillari faqat ro‘yxatdan o‘tkazish bilan cheklanadi, lekin:",
+      "bullets": [
+        "Brend nusxalanishining oldini olmaydi",
+        "Raqobatchilar nomingizdan foydalanib, o‘z mahsulotlarini sotishining oldini olmaydi",
+        "Sud jarayonlarida sizga yuridik yordam bermaydi"
+      ]
+    },
+    "button": "Patent narxini bilish"
+  },
+
+   "perspective": {
+    "title": "Brend huquqiy himoyasiz qolsa, qanday xavflar tug‘iladi?",
+    "desc": "Ko‘pchilik tadbirkorlar o‘z brendlarini ro‘yxatdan o‘tkazish kifoya deb o‘ylashadi, lekin aslida faqat patent olish brendingizni to‘liq himoya qilmaydi.",
+    "items": [
+      {
+        "number": "01",
+        "text": "Nusxalanish – Boshqa shaxslar sizning nomingiz va logotipingizdan foydalanishi mumkin."
+      },
+      {
+        "number": "02",
+        "text": "️Brendni yo‘qotish – Kimdir sizdan oldin ro‘yxatdan o‘tkazib, sizga foydalanishni taqiqlashi ehtimoli bor."
+      },
+      {
+        "number": "03",
+        "text": "Sudga tortilish xavfi – Ro‘yxatdan o‘tmagan brend bilan faoliyat yuritish huquqiy muammolar keltirib chiqarishi mumkin."
+      },
+      {
+        "number": "04",
+        "text": "️Mijozlarning ishonchini yo‘qotish – Brendingiz ostida sifatsiz mahsulot yoki xizmat taklif qilinishi mumkin."
+      }
+    ]
+  },
+  "keyPoints": {
+    "title": {
+      "start": "Patentlab",
+      "rest": "nafaqat brend nomini ro‘yxatdan o‘tkazadi, balki uning himoya qilinishini ham ta’minlaydi."
+    },
+    "desc": "Yagona egasi bo‘lasiz – Ro‘yxatdan o‘tgan tovar belgisi sizga to‘liq egalik huquqini beradi.",
+    "list": [
+      "Nusxalanishdan himoyalanasiz – Boshqalar brendingiz nomidan foydalanishining oldini olasiz.",
+      "Ishonch va nufuz oshadi – Rasmiy ro‘yxatdan o‘tgan brend mijozlarda ishonch uyg‘otadi.",
+      "Biznes qiymati oshadi – Tovar belgingiz moddiy aktiv sifatida sizning mulkingizga aylanadi.",
+      "Huquqiy muhofaza – Tovar belgingizga bo‘lgan huquqlaringiz buzilganda, qonunchilik asosida da’vo qilish va himoya choralarini ko‘rish imkoniga ega bo‘lasiz."
+    ],
+    "button": "Patent qidirish"
+  },
+   "keyPoints2": {
+    "title": {
+      "main": "1 oy ichida brendingiz potensial",
+      "highlight": "xavfdan holi bo’ladi"
+    },
+    "points": [
+      {
+        "number": "1",
+        "title": "Tajribali mutaxassislar",
+        "desc": "5 yil davomida 2000 dan ortiq intellektual mulk obyektlari bo‘yicha mijozlarga xizmat ko‘rsatganmiz."
+      },
+      {
+        "number": "2",
+        "title": "Rasmiy huquqiy himoya",
+        "desc": "Ro‘yxatdan o‘tgan tovar belgilarining huquqiy himoyasi bilan bog‘liq xizmatlarni ham ko‘rsatamiz."
+      },
+      {
+        "number": "3",
+        "title": "Tez va sifatli xizmat",
+        "desc": "Ro‘yxatdan o‘tkazish jarayonlarini imkon qadar tez va samarali bajaramiz."
+      },
+      {
+        "number": "4",
+        "title": "Ishonchli hamkorlik",
+        "desc": "Ish jarayonining har bir bosqichida mijozlarimizga to‘liq ochiqlik va huquqiy tushuntirish beramiz."
+      },
+      {
+        "number": "5",
+        "title": "Yuqori natijadorlik",
+        "desc": "Biz topshirgan talabnomalarning 90% dan ortig‘i muvaffaqiyatli ro‘yxatdan o‘tgan."
+      }
+    ]
+  },
+  "services": {
+    "title": "Tovar belgilarini ro‘yxatdan o‘tkazish va huquqiy himoya xizmatlariga",
+    "highlight": "nimalar kiradi?",
+    "items": [
+      "Ixtirolar",
+      "EHM va ma’lumotlar bazasi",
+      "Tovar belgilari, xizmat ko’rsatish belgilari",
+      "Sanoat namunalari",
+      "Seleksiya yutuqlari",
+      "Integral mikrosxemalar topologiyalari"
+    ]
+  },
+  "team":{
+    "title":"PatenLab",
+    "highlight":"Jamoasi",
+    "jobTitles":{
+      "specialist":"Mutaxassis",
+      "lawyer": "Yurist",
+      "founder":"Asoschi"
+    }
+      
+  },
+  "howWeWork": {
+    "title": "Biz Qanday Ishlaymiz?",
+    "steps": [
+      {
+        "title": "Dastlabki Maslahat",
+        "desc": "Belgining eksklyuzivligi va ro‘yxatdan o‘tish ehtimolini baholash uchun ekspertiza o‘tkazamiz."
+      },
+      {
+        "title": "Tovar belgisini tahlil qilish",
+        "desc": "Mijoz bilan uchrashib, brendni ro‘yxatdan o‘tkazish jarayoni va huquqiy himoya bo‘yicha tushuntirish beramiz."
+      },
+      {
+        "title": "Hujjatlarni tayyorlash va topshirish",
+        "desc": "Ro‘yxatdan o‘tkazish uchun zarur hujjatlarni rasmiy talablar asosida tayyorlaymiz va tegishli idoraga topshiramiz."
+      },
+      {
+        "title": "Davlat ekspertizasi jarayoni",
+        "desc": "Rasmiy ekspertiza natijalarini kuzatamiz va zarur hollarda qo‘shimcha hujjatlar bilan qo‘llab quvvatlaymiz."
+      },
+      {
+        "title": "Guvohnoma olish",
+        "desc": "Tovar belgisi ro‘yxatdan o‘tgach, mijozga rasmiy guvohnomani taqdim etamiz."
+      }
+    ]
+  },
+  "footer": {
+    "brand": "PatentLab",
+    "desc": "Patentlash va yuridik hizmatlar",
+    "menu1": [
+      { "label": "Asosiy", "href": "/" },
+      { "label": "Xizmatlar", "href": "/" },
+      { "label": "Natija", "href": "/" }
+    ],
+    "menu2": [
+      { "label": "Jarayon", "href": "/" },
+      { "label": "Afzaliklarimiz", "href": "/" },
+      { "label": "Savollarga javob", "href": "/" }
+    ],
+    "phone": "+998 88 102 77 44",
+    "telegram": "Telegram"
+  }
+  
+}

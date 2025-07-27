@@ -1,3 +1,8 @@
+<script setup lang="ts">
+import LanguageSwitchy from './LanguageSwitch.vue';
+
+</script>
+
 <template>
   <div class="w-full fixed top-0 bg-primary z-40 shadow-sm">
     <div
@@ -11,7 +16,7 @@
         <div class="flex space-x-2 items-center">
           <a
             href="tel:+998881027744"
-            class="text-dark bg-accent px-2 md:px-4 py-2 rounded-md md:rounded-full flex items-center space-x-2 text-lg"
+            class="text-dark bg-accent px-2 md:px-4 py-2 rounded-md md:rounded-full flex items-center space-x-2 text-xl"
           >
             <i class="bx bxs-phone text-xl" aria-hidden="true"></i>
             <span class="hidden md:flex">+998 88 102 77 44</span>
@@ -22,13 +27,10 @@
             class="text-dark bg-accent px-2 md:px-4 py-2 rounded-md md:rounded-full flex items-center space-x-2 text-lg"
           >
             <i class="bx bxl-telegram text-xl" aria-hidden="true"></i>
-            <span class="hidden md:block">Telegram</span>
+            <span class="hidden md:block">{{ $t('nav.contactUs') }}</span>
           </a>
         </div>
-        <div class="flex space-x-2 items-center">
-          <button class="text-lg text-white">Uz</button>
-          <button class="text-lg text-white">Py</button>
-        </div>
+        <LanguageSwitch />
       </div>
     </div>
   </div>

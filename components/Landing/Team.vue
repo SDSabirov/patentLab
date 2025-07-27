@@ -4,19 +4,19 @@
       class="max-w-screen-xl w-full mx-auto flex flex-col space-y-6 px-4 md:px-0"
     >
       <h2 class="text-3xl text-center w-full md:text-4xl font-semibold mb-6">
-        <span class="text-primary">PatentLab</span> Jamoasi
+        <span class="text-primary">{{ $t('team.title') }}</span> {{ $t('team.highlight') }}
       </h2>
       <div class="grid grid-cols-1 md:grid-cols-4 items-center">
-        <div class="flex flex-col space-y-4 items-center justify-between p-4">
-          <div class="flex items-center rounded-full overflow-hidden w-42 h-42">
+        <div class="flex flex-col space-y-4 items-center justify-between">
+          <div class="flex items-center justify-center rounded-full overflow-hidden w-32 h-32">
             <img src="/assets/images/team/1.png" alt="team member" class="w-full h-full object-cover" />
           </div>
-          <h4 class="text-2xl font-semibold text-center">Zane Sorell</h4>
-          <p class="text-xl text-primary">CEO</p>
-          <p class="text-gray-600 text-lg text-center">
+          <h4 class="text-2xl font-semibold text-center">Mustafoyev Alisherjon</h4>
+          <p class="text-xl text-primary">{{$t('team.jobTitles.specialist')}}</p>
+          <!-- <p class="text-gray-600 text-lg text-center">
             Enjoys adventurous travel, seeks new cultures and offbeat
             destinations
-          </p>
+          </p> -->
 
           <div class="flex space-x-4 items-center">
             <svg
@@ -44,14 +44,14 @@
           </div>
         </div>
         <div class="flex flex-col space-y-4 items-center justify-between p-4">
-          <div class="flex items-center rounded-full overflow-hidden w-42 h-42">
+          <div class="flex items-center justify-center rounded-full overflow-hidden w-32 h-32">
             <img src="/assets/images/team/2.png" alt="team member" class="w-full h-full object-cover"/>
           </div>
-          <h4 class="text-2xl font-semibold text-center">Maya Mathy</h4>
-          <p class="text-xl text-primary">Founder</p>
-          <p class="text-gray-600 text-lg text-center">
+          <h4 class="text-2xl font-semibold text-center">Ochilov Oybek</h4>
+          <p class="text-xl text-primary">{{$t('team.jobTitles.specialist')}}</p>
+          <!-- <p class="text-gray-600 text-lg text-center">
             Pop music lover, seeks joy and exciting pop concerts
-          </p>
+          </p> -->
 
           <div class="flex space-x-4 items-center">
             <svg
@@ -79,15 +79,15 @@
           </div>
         </div>
         <div class="flex flex-col space-y-4 items-center justify-between p-4">
-          <div class="flex items-center rounded-full overflow-hidden w-42 h-42">
+          <div class="flex items-center justify-center rounded-full overflow-hidden w-32 h-32">
             <img src="/assets/images/team/3.png" alt="team member" class="w-full h-full object-cover"/>
           </div>
-          <h4 class="text-2xl font-semibold text-center">Alexia Jensen</h4>
-          <p class="text-xl text-primary">CTO</p>
-          <p class="text-gray-600 text-lg text-center">
+          <h4 class="text-2xl font-semibold text-center">Rahmonov Sardor</h4>
+          <p class="text-xl text-primary">{{$t('team.jobTitles.lawyer')}} , {{$t('team.jobTitles.specialist')}}</p>
+          <!-- <p class="text-gray-600 text-lg text-center">
             Enjoys adventurous travel, seeks new cultures and offbeat
             destinations
-          </p>
+          </p> -->
 
           <div class="flex space-x-4 items-center">
             <svg
@@ -115,14 +115,14 @@
           </div>
         </div>
         <div class="flex flex-col space-y-4 items-center justify-between p-4">
-          <div class="flex items-center rounded-full overflow-hidden w-42 h-42">
-            <img src="/assets/images/team/4.png" alt="team member" class="w-full h-full object-cover"/>
+          <div class="flex items-center justify-center rounded-full overflow-hidden w-32 h-32">
+            <img src="/assets/images/team/4.jpg" alt="team member" class="w-full h-full object-cover"/>
           </div>
-          <h4 class="text-2xl font-semibold text-center">Keira Battye</h4>
-          <p class="text-xl text-primary">Product Designer</p>
-          <p class="text-gray-600 text-lg text-center">
+          <h4 class="text-2xl font-semibold text-center">Rahimova Irina Valentinovna</h4>
+          <p class="text-xl text-primary">{{$t('team.jobTitles.specialist')}}</p>
+          <!-- <p class="text-gray-600 text-lg text-center">
             Creative painter capturing beauty with imaginative artwork
-          </p>
+          </p> -->
 
           <div class="flex space-x-4 items-center">
             <svg

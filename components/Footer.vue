@@ -12,18 +12,18 @@
         <div class="w-full flex flex-col gap-4 items-center justify-center">
           <img src="/logo-white.svg" alt="logo" class="w-[70px]" />
           <h2 class="text-white font-semibold text-4xl">PatentLab</h2>
-          <p class="text-lg text-white">Patentlash va yuridik hizmatlar</p>
+          <p class="text-lg text-white">{{$t('footer.desc')}}</p>
         </div>
         <div class="grid grid-cols-2 gap-4 w-full mt-4 md:mt-0">
           <ul class="text-lg text-white flex flex-col gap-2 items-start">
-            <li><a href="/">Asosiy</a></li>
-            <li><a href="/">Xizmatlar</a></li>
-            <li><a href="/">Natija</a></li>
+            <li><a href="/">{{ $t('footer.menu1[0].label') }}</a></li>
+            <li><a href="/">{{ $t('footer.menu1[1].label') }}</a></li>
+            <li><a href="/">{{ $t('footer.menu1[2].label') }}</a></li>
           </ul>
           <ul class="text-lg text-white flex flex-col gap-2 items-start">
-            <li><a href="/">Jarayon</a></li>
-            <li><a href="/">Afzaliklarimiz</a></li>
-            <li><a href="/">Savollarga javob</a></li>
+            <li><a href="/">{{ $t('footer.menu2[0].label') }}</a></li>
+            <li><a href="/">{{ $t('footer.menu2[1].label') }}</a></li>
+            <li><a href="/">{{ $t('footer.menu2[2].label') }}</a></li>
           </ul>
         </div>
         <div class="w-full flex flex-col gap-4 items-center mt-4 md:mt-0">
@@ -41,7 +41,7 @@
             class="text-dark bg-accent px-6 py-2 rounded-full flex items-center space-x-2 text-lg w-fit"
           >
             <i class="bx bxl-telegram text-xl" aria-hidden="true"></i>
-            <span class="">Telegram</span>
+            <span class="">{{ $t('nav.contactUs') }}</span>
           </a>
         </div>
       </div>

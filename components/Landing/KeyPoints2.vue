@@ -4,10 +4,10 @@
       class="w-full max-w-screen-xl mx-auto flex flex-col items-center justify-center space-y-6 px-4 md:px-0"
     >
       <h1
-        class="text-2xl md:text-5xl font-semibold w-full text-center max-w-2xl"
+        class="text-2xl md:text-5xl font-semibold w-full text-center max-w-3xl"
       >
-        1 oy ichida brendingiz potensial
-        <span class="text-primary">xavfdan holi bo’ladi</span>
+        {{ $t('keyPoints2.title.main') }}
+        <span class="text-primary">{{ $t('keyPoints2.title.highlight') }}</span>
       </h1>
       <div
         class="flex flex-col space-y-4 justify-between md:flex-row md:space-y-0 w-full gap-4"
@@ -18,16 +18,16 @@
             <div
               class="h-12 w-12 bg-light border border-primary text-primary flex items-center justify-center p-2 rounded-full"
             >
-              <p class="font-jakarta font-semibold text-2xl">1</p>
+              <p class="font-jakarta font-semibold text-2xl">{{ $t('keyPoints2.points[0].number') }}</p>
             </div>
             <h2
               class="font-semibold text-2xl md:text-3xl text-primary leading-loose tracking-wide"
             >
-              Tajribali mutaxassislar
+              {{ $t('keyPoints2.points[0].title') }}
             </h2>
           </div>
           <p class="text-black text-xl tracking-wide">
-            5 yil davomida 2000 dan ortiq intellektual mulk obyektlari bo‘yicha mijozlarga xizmat ko‘rsatganmiz.
+            {{ $t('keyPoints2.points[0].desc') }}
           </p>
         </div>
         <div
@@ -43,11 +43,11 @@
             <h2
               class="font-semibold text-2xl md:text-3xl text-primary leading-loose tracking-wide"
             >
-            Rasmiy huquqiy himoya
+            {{ $t('keyPoints2.points[1].title') }}
             </h2>
           </div>
           <p class="text-black text-xl tracking-wide">
-            Ro‘yxatdan o‘tgan tovar belgilarining huquqiy himoyasi bilan bog‘liq xizmatlarni ham ko‘rsatamiz.
+            {{ $t('keyPoints2.points[1].desc') }}
           </p>
         </div>
         
@@ -69,11 +69,11 @@
             <h2
               class="font-semibold text-2xl md:text-3xl text-primary leading-loose tracking-wide"
             >
-            Tez va sifatli xizmat
+            {{ $t('keyPoints2.points[2].title') }}
             </h2>
           </div>
           <p class="text-black text-xl tracking-wide">
-            Ro‘yxatdan o‘tkazish jarayonlarini imkon qadar tez va samarali bajaramiz.
+            {{ $t('keyPoints2.points[2].desc') }}
           </p>
         </div>
         <div
@@ -88,11 +88,11 @@
             <h2
               class="font-semibold text-2xl md:text-3xl text-primary leading-loose tracking-wide"
             >
-            Ishonchli hamkorlik
+            {{ $t('keyPoints2.points[3].title') }}
             </h2>
           </div>
           <p class="text-black text-xl tracking-wide">
-            Ish jarayonining har bir bosqichida mijozlarimizga to‘liq ochiqlik va huquqiy tushuntirish beramiz.
+            {{ $t('keyPoints2.points[3].desc') }}
           </p>
         </div>
         
@@ -113,11 +113,11 @@
             <h2
               class="font-semibold text-2xl md:text-3xl text-primary leading-loose tracking-wide"
             >
-            Yuqori natijadorlik
+           {{ $t('keyPoints2.points[4].title') }}
             </h2>
           </div>
           <p class="text-black text-xl tracking-wide">
-            Biz topshirgan talabnomalarning 90% dan ortig‘i muvaffaqiyatli ro‘yxatdan o‘tgan.
+            {{ $t('keyPoints2.points[4].desc') }}
           </p>
         </div>
        
