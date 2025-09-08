@@ -56,7 +56,7 @@
     <div
       class="absolute -bottom-[22px] left-1/2 -translate-x-1/2 max-w-screen-xl hidden md:block"
     >
-      <LandingPartners />
+    
     </div>
   </section>
   <div

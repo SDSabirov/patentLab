@@ -5,7 +5,7 @@
     <h2
       class="w-full max-w-4xl mx-auto text-center text-2xl md:text-4xl font-semibold text-white"
     >
-      <span class="text-black">{{$t('keyPoints.title.start')}}</span> {{$t('keyPoints.title.rest')}}
+      <span class="text-light">{{$t('keyPoints.title.start')}}</span> {{$t('keyPoints.title.rest')}}
     </h2>
     <!-- <p class="text-light font-semibold text-xl mx-auto w-full text-center mt-6">
       Yagona egasi bo‘lasiz – Ro‘yxatdan o‘tgan tovar belgisi sizga to‘liq

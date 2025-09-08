@@ -8,7 +8,7 @@
       />
     </div>
     <div class="max-w-screen-xl mx-auto w-full py-20 px-4 md:px-0">
-      <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
         <div
           class="bg-primary text-white rounded-lg flex flex-col space-y-4 w-full h-full p-4 items-start justify-center"
         >
@@ -17,18 +17,18 @@
             {{ $t('stats.experience.desc') }}
           </p>
         </div>
-        <!-- <div
+        <div
           class="bg-primary text-white rounded-lg flex flex-col space-y-4 w-full h-full p-4 items-start justify-center"
         >
           <h2 class="text-2xl md:text-4xl">{{ $t('stats.team.value') }}</h2>
           <p class="text-lg md:text-xl">{{ $t('stats.team.desc') }}</p>
-        </div> -->
+        </div>
         <div
           class="bg-primary text-white rounded-lg flex flex-col space-y-4 w-full h-full p-4 items-start justify-center"
         >
           <h2 class="text-2xl md:text-4xl">{{ $t('stats.clients.value') }}</h2>
           <p class="text-lg md:text-xl">
-            {{ $t('stats.team.desc') }}
+            {{ $t('stats.clients.desc') }}
           </p>
         </div>
       </div>
