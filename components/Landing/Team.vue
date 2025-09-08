@@ -9,7 +9,7 @@
       <div class="grid grid-cols-1 md:grid-cols-4 items-center">
         <div class="flex flex-col space-y-4 items-center justify-between">
           <div class="flex items-center justify-center rounded-full overflow-hidden w-32 h-32">
-            <img src="/assets/images/team/islomjon.png" alt="team member" class="w-full h-full object-cover" />
+            <img src="/assets/images/team/islomjonava.png" alt="team member" class="w-full h-full object-cover" />
           </div>
           <h4 class="text-2xl font-semibold text-center">Usarov Islom Ilhom o'g'li</h4>
           <p class="text-xl text-primary">{{$t('team.jobTitles.specialist')}}</p>
