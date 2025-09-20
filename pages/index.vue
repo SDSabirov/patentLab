@@ -10,7 +10,7 @@
     <LandingWhatsIncluded/>
     <LandingTeam />
     <LandingHowItWorks />
-    <div class="w-full bg-white h-[150px] py-22">
+    <div class="w-full bg-white h-[10px] py-22">
       
     </div>
     <Footer/>

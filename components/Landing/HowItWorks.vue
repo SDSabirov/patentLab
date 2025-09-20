@@ -1,6 +1,7 @@
 <template>
   <section
     class="w-screen md:h-[90%] bg-primary relative rounded-lg md:rounded-b-[68px] py-12"
+    id="howitworks"
   >
     <div
       class="w-full max-w-screen-xl px-4 md:px-0 flex flex-col items-center justify-center mx-auto"

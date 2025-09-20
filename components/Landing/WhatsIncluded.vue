@@ -1,6 +1,7 @@
 <template>
   <section
     class="w-screen md:h-[90%] bg-primary relative rounded-lg md:rounded-b-[68px] py-12"
+    id="services"
   >
     <div
       class="mx-auto max-w-screen-xl relative flex flex-col px-4 md:px-0 items-center justify-center"

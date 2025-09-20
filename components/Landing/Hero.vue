@@ -29,7 +29,8 @@
         >
           <!-- Contact Button -->
           <a
-            href="/"
+            href="https://t.me/Patentlab_uzb" target="_blank"
+            rel="noopener"
             class="px-6 py-2 text-white text-xl border border-white rounded-full flex items-center space-x-4 justify-center"
           >
             <span>{{ $t('hero.contactBtn') }}</span>

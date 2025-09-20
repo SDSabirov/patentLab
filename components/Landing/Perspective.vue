@@ -1,5 +1,5 @@
 <template>
-  <section class="w-screen h-full max-w-screen overflow-hidden relative">
+  <section class="w-screen h-full max-w-screen overflow-hidden relative" id="perspective">
     <div class="absolute inset-0 -top-[80px] w-full h-full -z-10">
       <img
         src="/assets/images/backgrounds/bgpattern.png"

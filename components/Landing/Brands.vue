@@ -17,7 +17,7 @@
     <!-- Toggle Button: Only shows on mobile -->
     <div class="mt-4 text-center md:hidden">
       <button
-        class="px-6 py-2 text-white bg-primary rounded-full"
+        class="px-8 py-3 text-white bg-primary rounded-full text-xl"
         @click="toggleShow"
       >
         {{ showAll ? "Yopish" : "Barchasini ko‘rish" }}

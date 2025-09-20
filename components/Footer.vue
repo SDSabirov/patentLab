@@ -7,7 +7,7 @@
         class="object-cover w-full h-full"
       />
     </div>
-    <div class="w-full max-w-screen-xl mx-auto px-4 md:px-0">
+    <div class="w-full max-w-screen-xl mx-auto px-4 md:px-0 relative z-10">
       <div class="flex flex-col md:flex-row md:items-between justify-center">
         <div class="w-full flex flex-col gap-4 items-center justify-center">
           <img src="/logo-white.svg" alt="logo" class="w-[70px]" />
@@ -17,13 +17,13 @@
         <div class="grid grid-cols-2 gap-4 w-full mt-4 md:mt-0">
           <ul class="text-lg text-white flex flex-col gap-2 items-start">
             <li><a href="/">{{ $t('footer.menu1[0].label') }}</a></li>
-            <li><a href="/">{{ $t('footer.menu1[1].label') }}</a></li>
-            <li><a href="/">{{ $t('footer.menu1[2].label') }}</a></li>
+            <li><a href="/#services">{{ $t('footer.menu1[1].label') }}</a></li>
+            <li><a href="/#clients">{{ $t('footer.menu1[2].label') }}</a></li>
           </ul>
           <ul class="text-lg text-white flex flex-col gap-2 items-start">
-            <li><a href="/">{{ $t('footer.menu2[0].label') }}</a></li>
-            <li><a href="/">{{ $t('footer.menu2[1].label') }}</a></li>
-            <li><a href="/">{{ $t('footer.menu2[2].label') }}</a></li>
+            <li><a href="/#howitworks">{{ $t('footer.menu2[0].label') }}</a></li>
+            <li><a href="/#perspective">{{ $t('footer.menu2[1].label') }}</a></li>
+           
           </ul>
         </div>
         <div class="w-full flex flex-col gap-4 items-center mt-4 md:mt-0">
