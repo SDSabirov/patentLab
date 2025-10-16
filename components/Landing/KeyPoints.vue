@@ -99,8 +99,12 @@
         </div>
       </div>
       <div class="flex items-center justify-center mt-6">
-        <a href="/" class="rounded-full text-xl text-primary bg-light flex items-center justify-center py-2 w-full md:w-1/4">{{$t('keyPoints.button')}}</a>
+        <button @click="openFormModal" class="rounded-full text-xl text-primary bg-light flex items-center justify-center py-2 w-full md:w-1/4 hover:bg-opacity-90 transition-all">{{$t('keyPoints.button')}}</button>
       </div>
     </div>
   </section>
 </template>
+
+<script setup>
+const { openFormModal } = useFormModal()
+</script>

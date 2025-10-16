@@ -5,6 +5,11 @@ export default defineNuxtConfig({
 
   compatibilityDate: '2025-04-13',
   modules: ['@nuxtjs/tailwindcss','@nuxtjs/i18n'],
+
+  runtimeConfig: {
+    telegramBotToken: process.env.TELEGRAM_BOT_TOKEN,
+    telegramChatId: process.env.TELEGRAM_CHAT_ID,
+  },
   css: ['~/assets/css/main.css','boxicons/css/boxicons.min.css'],
   plugins: ['~/plugins/aos.client.ts'],
   postcss: {

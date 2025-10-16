@@ -187,6 +187,72 @@
     ],
     "phone": "+998 88 102 77 44",
     "telegram": "Telegram"
+  },
+  "multiStepForm": {
+    "title": "Narxini hisoblatish va bepul konsultatsiya olish uchun savollarga javob bering",
+    "progress": "Bosqich",
+    "of": "dan",
+    "step1": {
+      "question1": "Ismingizni yozing",
+      "namePlaceholder": "Ismingiz",
+      "question2": "Siz hozirda kim sifatida faoliyat yurityapsiz?",
+      "roles": {
+        "owner": "Kompaniya egasi",
+        "marketer": "Raqamli marketing mutaxassisi",
+        "starter": "Yangi loyihani boshlayotgan inson",
+        "other": "Boshqa"
+      },
+      "otherPlaceholder": "Aniqroq yozing"
+    },
+    "step2": {
+      "question1": "Brendingiz qanday nomda faoliyat yurityapti?",
+      "brandPlaceholder": "Brend nomi",
+      "question2": "Sizning logotipingiz, rang uslubingiz bormi?",
+      "hasLogo": {
+        "yes": "Bor",
+        "no": "Yo'q, hali ishlab chiqmaganman"
+      },
+      "question3": "Qaysi sohada faoliyat yuritasiz?",
+      "industryPlaceholder": "(Masalan: Kafe, Dorixona, Ishlab-chiqarish, Klinika...)"
+    },
+    "step3": {
+      "title": "Qanday xizmat sizni qiziqtiryabti?",
+      "services": {
+        "registration": "Brendni ro'yxatdan o'tkazish bilan bog'liq yuridik yordam",
+        "protection": "Mavjud brendni himoya qilish",
+        "recovery": "Brend nomini qaytarib olish bilan bog'liq yuridik yordam",
+        "branding": "Brending va dizayn",
+        "other": "Boshqa"
+      },
+      "otherPlaceholder": "Qo'shimcha izoh"
+    },
+    "step4": {
+      "title": "Siz bilan bog'lanish uchun eng qulay vaqtingiz qachon?",
+      "timeSlots": {
+        "morning": "Ertalab (09:00–12:00)",
+        "afternoon": "Tushdan keyin (12:00–17:00)",
+        "evening": "Kechqurun (17:00–20:00)"
+      }
+    },
+    "step5": {
+      "title": "📞 Bog'lanish uchun raqamingizni qoldiring",
+      "description": "24 soat ichida sizga aloqaga chiqamiz",
+      "placeholder": "+998 (__) ___ __ __",
+      "errorShort": "Telefon raqami juda qisqa",
+      "errorInvalid": "Iltimos, to'g'ri telefon raqamini kiriting"
+    },
+    "buttons": {
+      "next": "Keyingi",
+      "back": "Orqaga",
+      "submit": "Yuborish",
+      "submitting": "Yuborilmoqda..."
+    },
+    "success": {
+      "icon": "✅",
+      "title": "Arizangiz uchun rahmat!",
+      "description": "Biz siz bilan tez orada bog'lanamiz",
+      "button": "Yana ariza yuborish"
+    }
   }
-  
+
 }

@@ -11,9 +11,12 @@
     <LandingTeam />
     <LandingHowItWorks />
     <div class="w-full bg-white h-[10px] py-22">
-      
+
     </div>
     <Footer/>
+
+    <!-- Multi-Step Form Modal -->
+    <LandingMultiStepForm />
   </div>
 </template>
 

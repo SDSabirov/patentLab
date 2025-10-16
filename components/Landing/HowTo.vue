@@ -68,7 +68,7 @@
         </div>
       </div>
       <div class="flex items-center justify-center w-full ">
-        <a href="/" class="w-[320px] text-primary bg-light py-2 flex items-center justify-center text-xl rounded-full">{{$t('howTo.button')}}</a>
+        <button @click="openFormModal" class="w-[320px] text-primary bg-light py-2 flex items-center justify-center text-xl rounded-full hover:bg-opacity-90 transition-all">{{$t('howTo.button')}}</button>
       </div>
     </div>
      
@@ -95,6 +95,8 @@
   </div>
 </template>
 <script setup>
+const { openFormModal } = useFormModal()
+
 const isOpen = ref(false)
 function openModal() {
   isOpen.value = true
